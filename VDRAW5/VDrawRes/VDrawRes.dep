@@ -1,0 +1,20 @@
+# Microsoft Developer Studio Generated Dependency File, included by VDrawRes.mak
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\VDrawRes.cpp : \
+	".\StdAfx.h"\
+	".\VDrawRes.h"\
+	
+
+.\VDrawRes.rc : \
+	".\cursor1.cur"\
+	".\cursor3d.cur"\
+	".\H_POINT.CUR"\
+	".\hatch1.bmp"\
+	".\hatch2.bmp"\
+	".\hatch3.bmp"\
+	".\res\VDrawRes.rc2"\
+	

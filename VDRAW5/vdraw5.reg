@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+; Brought to you by SLi () 2005 ;
+; ;
+; download from http:\\www.vdraw.com\hotfixes.htm ;
+; Username: user17 ;
+; Password: user17 ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+
+;VDCE 'M'
+[HKEY_CLASSES_ROOT\Licenses\D889DB57-B67E-4e18-A7EA-1A02BE80C68B]
+"Serial"="uRp4Va5103Vs5hMWpUsE10Ql8"
+"Authorize"="7dKs7BlPoPRc0l30z1BgQ2xTt"
+
+;VDFOPEN 'F'
+[HKEY_CLASSES_ROOT\Licenses\B483BC14-F67C-4266-9C23-23B9C1FAA0A4]
+"Serial"="gyogVZI263cpjpFprr7EbX5p8"
+"Authorize"="7iBPbACwioNpekWx7tJSNlvuj"
+
+;VDSTD 'S'
+[HKEY_CLASSES_ROOT\Licenses\DEBDF550-8E39-47fc-8F23-DA63FD8CD1C9]
+"Serial"="10GJV2Uy23Dyc5SsbANEP7tJ8"
+"Authorize"="3FoDL7G9cjN5Xt7y2qbvaKJ01"
+
+;VDVIEW 'V'
+[HKEY_CLASSES_ROOT\Licenses\5B05B56C-7082-4d72-BDAD-CD76BD204250]
+"Serial"="Q10OVMkYU32WKBVD8hREUEHX8"
+"Authorize"="AQLFLBSj88V6Fyx2VPiEYPv2M"
+
+;VDPRO 'P'
+[HKEY_CLASSES_ROOT\Licenses\03A97477-6692-4b49-A081-996887AD268F]
+"Serial"="udnjVM6OT3ptXXPNDrqErnGX8"
+"Authorize"="Bc9mpAvt5FNdSMkySOCLOlvbw"
+
+;VDATTRIB
+[HKEY_CLASSES_ROOT\Licenses\F5A6DD00-CED7-426c-8768-76C5FF7C77AF]
+"Authorize"="C1FFA4E0-E213-473c-B497-0DA7A1BFAEAA"
+
+
+;DWG support
+[HKEY_CLASSES_ROOT\Licenses\69B78A29-C423-4d40-823E-9017618BE86C]
+@="0AB656DE-3375-47a6-971E-FEA1C37B97CC"
+
+
+;DGN support
+[HKEY_CLASSES_ROOT\Licenses\149E5655-DE64-4496-BEB4-7A1D4C5F2EB8]
+@="79280502-81E5-4ebb-9993-DEA910EF165B"

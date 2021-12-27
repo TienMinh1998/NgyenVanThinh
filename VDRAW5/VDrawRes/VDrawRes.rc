@@ -1,0 +1,914 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 5,1,1,1039
+ PRODUCTVERSION 5,1,1,1039
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Nov 2005\0"
+            VALUE "CompanyName", "VectorDraw\0"
+            VALUE "FileDescription", "VDrawRes DLL\0"
+            VALUE "FileVersion", "5, 1, 1, 1039\0"
+            VALUE "InternalName", "VDrawRes\0"
+            VALUE "LegalCopyright", "Copyright © 1998 - 2003 VectorDraw\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "VDrawRes.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "VDrawRes Dynamic Link Library\0"
+            VALUE "ProductVersion", "5, 1, 1, 1039\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_EDIT_ATTRIB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_LW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_OSNAPDIALOG, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_PEN_ASSIGNMENTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_HATCHPATTERNDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_CHOOSECOLOR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_SELECTCOLOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 255
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_PASSWORD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_LAYERDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 225
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LAYFREEZE           BITMAP  DISCARDABLE     "layfreez.bmp"
+IDB_LAYLOCK             BITMAP  DISCARDABLE     "laylock.bmp"
+IDB_LAYTHAW             BITMAP  DISCARDABLE     "laythaw.bmp"
+IDB_LAYUNLOCK           BITMAP  DISCARDABLE     "layunloc.bmp"
+IDB_STAT_CLIP_COPY      BITMAP  DISCARDABLE     "staCopy.bmp"
+IDB_STAT_CLIP_CUT       BITMAP  DISCARDABLE     "stat_cli.bmp"
+IDB_STAT_CLIP_PASTE     BITMAP  DISCARDABLE     "ClipPaste.bmp"
+IDB_STAT_HIDE           BITMAP  DISCARDABLE     "hide.bmp"
+IDB_STAT_LAYERS         BITMAP  DISCARDABLE     "stat_lay.bmp"
+IDB_STAT_LAYOUTS        BITMAP  DISCARDABLE     "layouts.bmp"
+IDB_STAT_OPEN           BITMAP  DISCARDABLE     "stat_ope.bmp"
+IDB_STAT_PAN            BITMAP  DISCARDABLE     "stat_pan.bmp"
+IDB_STAT_PLANW          BITMAP  DISCARDABLE     "planw.bmp"
+IDB_STAT_PRINT          BITMAP  DISCARDABLE     "stat_pri.bmp"
+IDB_STAT_REDRAW         BITMAP  DISCARDABLE     "stat_red.bmp"
+IDB_STAT_RENDER         BITMAP  DISCARDABLE     "stat_ren.bmp"
+IDB_STAT_SHADE          BITMAP  DISCARDABLE     "shade.bmp"
+IDB_STAT_SHADEON        BITMAP  DISCARDABLE     "shadeon.bmp"
+IDB_STAT_VBOTTOM        BITMAP  DISCARDABLE     "vbot.bmp"
+IDB_STAT_VDINAMIC       BITMAP  DISCARDABLE     "vdynamic.bmp"
+IDB_STAT_VFRONT         BITMAP  DISCARDABLE     "vfront.bmp"
+IDB_STAT_VIEWBACK       BITMAP  DISCARDABLE     "viewback.bmp"
+IDB_STAT_VLEFT          BITMAP  DISCARDABLE     "vleft.bmp"
+IDB_STAT_VNE            BITMAP  DISCARDABLE     "vne.bmp"
+IDB_STAT_VNW            BITMAP  DISCARDABLE     "vnw.bmp"
+IDB_STAT_VRIGHT         BITMAP  DISCARDABLE     "vright.bmp"
+IDB_STAT_VROT           BITMAP  DISCARDABLE     "vrot.bmp"
+IDB_STAT_VSE            BITMAP  DISCARDABLE     "vse.bmp"
+IDB_STAT_VSW            BITMAP  DISCARDABLE     "vsw.bmp"
+IDB_STAT_VTOP           BITMAP  DISCARDABLE     "stat_vto.bmp"
+IDB_STAT_WIRE           BITMAP  DISCARDABLE     "wire.bmp"
+IDB_STAT_ZALL           BITMAP  DISCARDABLE     "zall.bmp"
+IDB_STAT_ZE             BITMAP  DISCARDABLE     "ze.bmp"
+IDB_STAT_ZIN            BITMAP  DISCARDABLE     "zoomin.bmp"
+IDB_STAT_ZOOM_W         BITMAP  DISCARDABLE     "zoom_w.bmp"
+IDB_STAT_ZOUT           BITMAP  DISCARDABLE     "zout.bmp"
+IDB_STAT_ZP             BITMAP  DISCARDABLE     "zoomp.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR3DROT         CURSOR  DISCARDABLE     "cursor3d.cur"
+IDC_CURSORPAN           CURSOR  DISCARDABLE     "cursor1.cur"
+IDC_HANDPOINT           CURSOR  DISCARDABLE     "H_POINT.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EDIT_ATTRIB DIALOGEX 0, 0, 241, 126
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Söa thuéc tÝnh"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "§ång ý",IDOK,130,105,50,14,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,184,105,50,14,BS_FLAT
+    PUSHBUTTON      "TiÕp theo",IDNEXT,76,105,50,14,BS_FLAT
+    PUSHBUTTON      "Trë l¹i",IDPREV,22,105,50,14,BS_FLAT
+    LTEXT           "",IDC_TAG2,7,35,100,12
+    LTEXT           "",IDC_TAG3,7,51,100,12
+    LTEXT           "",IDC_TAG4,7,67,100,12
+    LTEXT           "",IDC_TAG5,7,84,100,12
+    LTEXT           "",IDC_TAG1,7,19,100,12
+    EDITTEXT        IDC_VAL1,113,19,121,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_VAL2,113,35,121,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_VAL3,113,51,121,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_VAL4,113,67,121,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_VAL5,113,84,121,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    CONTROL         "Tªn khèi:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_NOPREFIX | WS_GROUP,7,7,100,8
+    LTEXT           "Static",IDC_BLOCKNAME,113,7,120,8
+END
+
+IDD_INSERTDIALOG DIALOGEX 0, 0, 260, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ChÌn khèi"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "§ång ý",IDOK,150,105,50,14,BS_FLAT | WS_GROUP
+    PUSHBUTTON      "Huû bá",IDCANCEL,204,105,50,14,BS_FLAT
+    CONTROL         "Tªn khèi:",IDC_RADIOBLOCK,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,7,7,57,10
+    COMBOBOX        IDC_BLOCKLIST,70,7,185,77,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tªn tÖp:",IDC_RADIOFILE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,7,24,44,10
+    EDITTEXT        IDC_FILENAME,70,23,131,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Chän tÖp",IDC_SELECTFILE,205,22,50,14,BS_FLAT
+    CONTROL         "Chän thuéc tÝnh tõ mµn h×nh",IDC_PARAMONSCREEN,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,39,120,10
+    GROUPBOX        "§iÓm chÌn",IDC_STATIC,7,51,80,48
+    LTEXT           "X:",IDC_STATIC,14,62,12,8
+    EDITTEXT        IDC_INSX,30,62,50,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Y:",IDC_STATIC,13,78,12,8
+    EDITTEXT        IDC_INSY,30,78,50,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Tû lÖ",IDC_STATIC,91,51,80,48
+    LTEXT           "X:",IDC_STATIC,98,62,12,8
+    EDITTEXT        IDC_SCALEX,113,62,50,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Y:",IDC_STATIC,98,78,12,8
+    EDITTEXT        IDC_SCALEY,113,78,50,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Gãc xoay",IDC_STATIC,175,51,79,48
+    LTEXT           "Angle:",IDC_STATIC,182,62,22,8
+    EDITTEXT        IDC_ROTATION,207,62,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+END
+
+IDD_LAYOUTNEW DIALOGEX 0, 0, 179, 45
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Khu«n d¹ng"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "§ång ý",IDOK,67,26,50,14,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,122,26,50,14,BS_FLAT
+    LTEXT           "Tªn:",IDC_STATIC,7,8,25,8
+    EDITTEXT        IDC_EDIT1,35,7,137,12,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+END
+
+IDD_LAYOUTS DIALOGEX 0, 0, 171, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Qu¶n lý ®Þnh d¹ng in"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "KÕt thóc",IDCANCEL,114,92,50,14,BS_FLAT
+    PUSHBUTTON      "§Æt hiÖn hµnh",ID_CURENT,114,7,50,14,BS_FLAT
+    PUSHBUTTON      "Xo¸",ID_DEL,114,25,50,14,BS_FLAT
+    LISTBOX         IDC_LIST,7,7,100,99,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "T¹o míi",ID_NEW,114,43,50,14,BS_FLAT
+END
+
+IDD_LINETYPEDLG DIALOGEX 0, 0, 300, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Lùa chän kiÓu nÐt"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "§ång ý",IDOK,188,127,50,14,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,243,127,50,14,BS_FLAT
+    LISTBOX         IDC_LIST1,7,7,285,114,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | 
+                    WS_TABSTOP,WS_EX_STATICEDGE
+END
+
+IDD_LW DIALOGEX 0, 0, 215, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BÒ dµy nÐt"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "§ång ý",IDOK,104,134,50,14,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,158,134,50,14,BS_FLAT
+    LISTBOX         IDC_LIST1,7,7,200,120,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+END
+
+IDD_OSNAPDIALOG DIALOG DISCARDABLE  0, 0, 238, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ChÕ ®é b¾t ®iÓm"
+FONT 8, "CD Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "§ång ý",IDOK,127,66,50,14,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,181,66,50,14,BS_FLAT
+    CONTROL         "§iÓm cuèi",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,7,70,10
+    CONTROL         "Trung ®iÓm",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,21,70,10
+    CONTROL         "T©m ®iÓm",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,7,35,70,10
+    CONTROL         "§iÓm chÌn",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,84,7,70,10
+    CONTROL         "§iÓm vu«ng gãc",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,84,21,70,10
+    CONTROL         "§iÓm gÇn nhÊt",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,84,35,70,10
+    PUSHBUTTON      "Bá chän tÊt",IDC_BUTTON2,19,66,50,14,BS_FLAT
+    CONTROL         "Giao ®iÓm",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,49,70,10
+    CONTROL         "§iÓm",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,84,49,70,10
+    CONTROL         "Giao ®iÓm hiÖn",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,161,7,70,10
+    CONTROL         "TiÕp ®iÓm",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,161,35,70,10
+    CONTROL         "§iÓm phÇn t­",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,161,21,70,10
+    PUSHBUTTON      "Chän tÊt",IDC_BUTTON7,73,66,50,14,BS_FLAT
+END
+
+IDD_PEN_ASSIGNMENTS DIALOGEX 0, 0, 219, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "§Æt nÐt in"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "§ång ý",IDOK,110,66,50,14,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,162,66,50,14,BS_FLAT
+    LISTBOX         IDC_LIST1,7,18,100,41,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    LTEXT           "MÇu:",IDC_STATIC,112,18,27,8
+    LTEXT           "Dµy nÐt:",IDC_STATIC,112,34,31,8
+    EDITTEXT        IDC_WIDTH,145,33,67,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Sè hiÖu mÇu \\ ChiÒu dµy nÐt in (mm)",IDC_STATIC,7,7,
+                    117,8
+    CONTROL         "",IDC_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,145,17,
+                    67,12
+END
+
+IDD_PREVIEWDLG DIALOGEX 0, 0, 466, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "In Ên"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Chän m¸y in",IDC_SELECTPRINTER,302,223,50,14,BS_FLAT
+    EDITTEXT        IDC_TOP,343,19,29,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_LEFT,343,35,29,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_BOTTOM,420,19,29,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_RIGHT,420,35,29,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    CONTROL         "Khung giÊy ngang",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_GROUP,385,69,70,8
+    CONTROL         "Khung giÊy däc",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,320,69,64,8
+    EDITTEXT        IDC_PRINTERMM,385,98,39,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER | WS_GROUP,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DRAWUNT,385,114,39,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    CONTROL         "§Æt khÝt khæ giÊy",IDC_SCFIT,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,385,134,73,8
+    CONTROL         "B¶n in ®en tr¾ng",IDC_BW,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,317,162,65,8
+    PUSHBUTTON      "§Æt nÐt in",IDC_PENASSIGN,385,159,75,14,BS_FLAT
+    CONTROL         "Cöa sæ in",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,366,198,43,8
+    CONTROL         "In më réng",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,316,198,47,8
+    CONTROL         "mm",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | BS_FLAT | 
+                    WS_GROUP,370,7,26,8
+    CONTROL         "inches",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,413,7,36,8
+    PUSHBUTTON      "Chän vïng in >>",IDC_PICKWINDOW,410,195,53,14,BS_FLAT | 
+                    WS_GROUP
+    PUSHBUTTON      "VÏ l¹i",IDC_UPDATEVIEW,248,223,50,14,BS_FLAT
+    PUSHBUTTON      "In",IDOK,356,223,50,14,BS_FLAT
+    PUSHBUTTON      "KÕt thóc",IDCANCEL,410,223,50,14,BS_FLAT
+    LTEXT           "Tr¸i:",IDC_STATIC,320,37,20,8
+    LTEXT           "Trªn:",IDC_STATIC,320,21,19,8
+    LTEXT           "Ph¶i:",IDC_STATIC,385,37,26,8
+    LTEXT           "D­íi:",IDC_STATIC,385,21,19,8
+    CONTROL         "Button1",IDC_PREVIEWWIN,"Button",BS_OWNERDRAW | BS_FLAT,
+                    7,7,297,209,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,311,15,150,1
+    LTEXT           "§Æt lÒ b¶n vÏ",IDC_STATIC,311,7,48,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,311,63,150,1
+    LTEXT           "ChiÒu xoay giÊy",IDC_STATIC,311,55,70,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,311,93,150,1
+    LTEXT           "Tû lÖ",IDC_STATIC,311,85,70,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,311,153,150,1
+    LTEXT           "MÇu s¾c",IDC_STATIC,316,145,70,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,311,191,150,1
+    LTEXT           "Vïng in",IDC_STATIC,317,183,70,8
+    LTEXT           "§¬n vÞ m¸y in",IDC_STATIC,320,100,45,8
+    LTEXT           "§¬n vÞ b¶n vÏ",IDC_STATIC,320,116,47,8
+    LTEXT           "mm",IDC_PRINTUNIT_TYPE,430,100,30,8
+END
+
+IDD_HATCHPATTERNDLG DIALOG DISCARDABLE  0, 0, 217, 189
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Lùa chän nÐt t«"
+FONT 8, "CD Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_SINGLESEL | 
+                    LVS_OWNERDRAWFIXED | WS_BORDER | WS_TABSTOP,10,7,198,154
+    DEFPUSHBUTTON   "§ång ý",IDOK,57,168,50,14,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,110,168,50,14,BS_FLAT
+END
+
+IDD_CHOOSECOLOR DIALOG DISCARDABLE  116, 0, 257, 162
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Chän mÇu"
+FONT 8, "CD Sans Serif"
+BEGIN
+    LTEXT           "&B¶ng mÇu chuÈn:",-1,307,4,140,9
+    CONTROL         "",COLOR_BOX1,"Static",SS_SIMPLE | WS_GROUP | WS_TABSTOP,
+                    307,14,140,14
+    LTEXT           "MÇu tù chän:",-1,307,31,140,9
+    CONTROL         "",COLOR_CUSTOM1,"Static",SS_SIMPLE | WS_GROUP | 
+                    WS_TABSTOP,307,41,140,28
+    PUSHBUTTON      "B¶ng mÇu tù chän >>",COLOR_MIX,303,68,79,14,WS_GROUP
+    DEFPUSHBUTTON   "§ång ý",IDOK,75,143,50,14,BS_FLAT | WS_GROUP
+    PUSHBUTTON      "Huû bá",IDCANCEL,130,143,50,14,BS_FLAT | WS_GROUP
+    PUSHBUTTON      "&Help",1038,399,89,44,14,WS_GROUP
+    CONTROL         "",COLOR_RAINBOW,"Static",SS_SIMPLE | SS_SUNKEN,70,4,155,
+                    132
+    CONTROL         "",COLOR_LUMSCROLL,"Static",SS_SIMPLE | SS_SUNKEN,235,4,
+                    14,132
+    CONTROL         "",COLOR_CURRENT,"Static",SS_SIMPLE | SS_SUNKEN,4,4,40,
+                    26
+    PUSHBUTTON      "&o",COLOR_SOLID,451,92,6,14,WS_GROUP
+    RTEXT           "MÇu",COLOR_SOLID_LEFT,4,31,20,9
+    LTEXT           "|Solid",COLOR_SOLID_RIGHT,24,31,20,9
+    RTEXT           "Hu&e:",COLOR_HUEACCEL,309,110,20,9
+    EDITTEXT        COLOR_HUE,331,106,18,12,WS_GROUP
+    RTEXT           "&Sat:",COLOR_SATACCEL,309,122,20,9
+    EDITTEXT        COLOR_SAT,331,121,18,12,WS_GROUP
+    RTEXT           "&Lum:",COLOR_LUMACCEL,309,137,20,9
+    EDITTEXT        COLOR_LUM,331,135,18,12,WS_GROUP
+    RTEXT           "§á:",COLOR_REDACCEL,7,59,24,9
+    EDITTEXT        COLOR_RED,33,57,18,12,WS_GROUP
+    RTEXT           "Lam:",COLOR_GREENACCEL,7,73,24,9
+    EDITTEXT        COLOR_GREEN,33,71,18,12,WS_GROUP
+    RTEXT           "Xanh:",COLOR_BLUEACCEL,7,87,24,9
+    EDITTEXT        COLOR_BLUE,33,85,18,12,WS_GROUP
+    PUSHBUTTON      "&Add to Custom Colors",COLOR_ADD,385,70,79,14,WS_GROUP
+    PUSHBUTTON      "<< B¶ng mÇu",IDBYVCI,185,143,66,14,BS_FLAT | WS_GROUP
+END
+
+IDD_SELECTCOLOR DIALOGEX 0, 0, 257, 162
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "B¶ng mÇu"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_COLOR,70,7,44,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Theo líp",IDC_BYLAYER,119,6,50,14,BS_FLAT
+    CONTROL         "COL10",IDC_COL10,"Button",BS_OWNERDRAW | WS_TABSTOP,70,
+                    26,180,12
+    CONTROL         "COL6",IDC_COL6,"Button",BS_OWNERDRAW | WS_TABSTOP,70,42,
+                    122,12
+    CONTROL         "COL240",IDC_COL240,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    70,58,180,79
+    DEFPUSHBUTTON   "§ång ý",IDOK,75,143,50,14,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,130,143,50,14,BS_FLAT
+    LTEXT           "MÇu:",IDC_STATIC,7,7,60,8
+    LTEXT           "B¶ng mÇu chuÈn",IDC_STATIC,7,26,60,8
+    LTEXT           "B¶ng mÇu ®¬n s¾c",IDC_STATIC,6,43,61,8
+    LTEXT           "B¶ng mÇu ®Çy ®ñ",IDC_STATIC,7,59,60,8
+    PUSHBUTTON      "Theo khèi",IDC_BYBLOCK,177,6,50,14,BS_FLAT
+    PUSHBUTTON      "B¶ng mÇu >>",IDTRUECOLOR,185,143,66,14,BS_FLAT
+END
+
+IDD_PASSWORD_DLG DIALOG DISCARDABLE  0, 0, 186, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MËt khÈu"
+FONT 8, "CD Sans Serif"
+BEGIN
+    LTEXT           "MËt khÈu ®Ó më b¶n vÏ:",IDC_STATIC,7,7,142,13
+    LTEXT           "",IDC_PASS_FILE_NAME,7,19,172,32
+    EDITTEXT        IDC_EDIT_PWD,7,60,172,13,ES_UPPERCASE | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "§ång ý",IDOK,35,79,50,14
+    PUSHBUTTON      "Huû bá",IDCANCEL,99,79,50,14
+END
+
+IDD_LAYERDLG DIALOGEX 0, 0, 371, 228
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Líp b¶n vÏ"
+FONT 8, "CD Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "§Æt líp hiÖn t¹i",ID_CURRENT,7,7,57,12,BS_FLAT
+    PUSHBUTTON      "T¹o líp míi",IDNEW,7,23,56,12,BS_FLAT
+    EDITTEXT        IDC_NEW,65,23,242,12,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "List3",IDC_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_SORTASCENDING | LVS_OWNERDRAWFIXED | WS_TABSTOP,7,39,
+                    300,183,WS_EX_STATICEDGE
+    PUSHBUTTON      "Chän tÊt",IDSELECTALL,314,39,50,12,BS_FLAT
+    PUSHBUTTON      "Bá chän tÊt",IDDESELECT,314,55,50,12,BS_FLAT
+    PUSHBUTTON      "Xo¸ líp",IDDELETE,314,71,50,12,BS_FLAT
+    PUSHBUTTON      "T¾t líp",IDFREEZE,314,87,50,12,BS_FLAT
+    PUSHBUTTON      "BËt líp",IDTHAW,314,103,50,12,BS_FLAT
+    PUSHBUTTON      "§Æt mÇu",IDCOLOR,314,119,50,12,BS_FLAT
+    PUSHBUTTON      "§Æt kiÓu nÐt",IDLTYPE,314,135,50,12,BS_FLAT
+    PUSHBUTTON      "Kho¸ líp",IDLOCK,314,151,50,12,BS_FLAT
+    PUSHBUTTON      "Më kho¸",IDUNLOCK,314,167,50,12,BS_FLAT
+    PUSHBUTTON      "Huû bá",IDCANCEL,314,193,50,12,BS_FLAT
+    PUSHBUTTON      "§ång ý",IDOK,314,209,50,12,BS_FLAT
+    LTEXT           "",IDC_CURRENTName,66,9,205,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPMENUZOOMPRINT MENU DISCARDABLE 
+BEGIN
+    POPUP "VDCommands"
+    BEGIN
+        MENUITEM "Regen",                       ID_VDCOMMANDS_REGEN
+        MENUITEM "Redraw",                      ID_VDCOMMANDS_REDRAW
+        MENUITEM SEPARATOR
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "&Extends",                    ID_VDCOMMANDS_ZOOM_E
+            MENUITEM "&Window",                     ID_VDCOMMANDS_ZOOM_W
+            MENUITEM "&Previous",                   ID_VDCOMMANDS_ZOOM_P
+            MENUITEM SEPARATOR
+            MENUITEM "&In",                         ID_ZOOMIN
+            MENUITEM "&Out",                        ID_ZOOMOUT
+            MENUITEM "All",                         ID_VDCOMMANDS_ZOOM_ALL
+        END
+        MENUITEM "P&an",                        ID_PAN
+        MENUITEM SEPARATOR
+        POPUP "3D View"
+        BEGIN
+            MENUITEM "Top",                         ID_VDCOMMANDS_3DVIEW_TOP
+            MENUITEM "Bottom",                      ID_VDCOMMANDS_3DVIEW_BOTTOM
+
+            MENUITEM "Left",                        ID_VDCOMMANDS_3DVIEW_LEFT
+
+            MENUITEM "Right",                       ID_VDCOMMANDS_3DVIEW_RIGHT
+
+            MENUITEM "Front",                       ID_VDCOMMANDS_3DVIEW_FRONT
+
+            MENUITEM "Back",                        ID_VDCOMMANDS_3DVIEW_BACK
+
+            MENUITEM SEPARATOR
+            MENUITEM "SW Isometric",                ID_VDCOMMANDS_3DVIEW_SWISOMETRIC
+
+            MENUITEM "SE Isometric",                ID_VDCOMMANDS_3DVIEW_SEISOMETRIC
+
+            MENUITEM "NE Isometric",                ID_VDCOMMANDS_3DVIEW_NEISOMETRIC
+
+            MENUITEM "NW Isometric",                ID_VDCOMMANDS_3DVIEW_NWISOMETRIC
+
+            MENUITEM SEPARATOR
+            MENUITEM "Plan World",                  ID_VDCOMMANDS_3DVIEW_PLANWORLD
+
+        END
+        MENUITEM "Wire",                        ID_VDCOMMANDS_WIRE
+        MENUITEM "Hide",                        ID_VDCOMMANDS_HIDE
+        MENUITEM "Shade Edge Off",              ID_VDCOMMANDS_SHADE
+        MENUITEM "Shade Edge On",               ID_VDCOMMANDS_SHADEEDGEON
+        MENUITEM "Dynamic",                     ID_VDCOMMANDS_3DVIEW_DYNAMIC
+        MENUITEM SEPARATOR
+        MENUITEM "Clipboard Copy",              ID_VDCOMMANDS_CLIPBOARD_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "Layers",                      IDLAYERS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print",                      IDPRINT
+        MENUITEM "LayOuts...",                  IDLAYOUTS
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_VDCOMMANDS_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message1            "VectorDraw|Gi¸ trÞ ph¶i kh¸c 0"
+    IDS_message2            "VectorDraw|®èi t­îng b¹n chän kh«ng ph¶i lµ block (khèi)"
+    IDS_message3            "ch­¬ng tr×nh bÞ ng¾t bÊt th­êng"
+    IDS_message4            "VectorDraw|Líp nµy bÞ t¾t!!\nH·y chän líp kh¸c."
+    IDS_message5            "VectorDraw|Tªn líp kh«ng hîp lÖ.\nTªn líp ph¶i lµ duy nhÊt trong b¶n vÏ nµy."
+    IDS_message6            "VectorDraw|Kh«ng thÓ t¾t líp hiÖn t¹i"
+    IDS_message7            "VectorDraw|\nLíp hiÖn t¹i kh«ng thÓ xo¸ ®­îc.\nNh÷ng líp sau kh«ng xo¸ ®­îc:\nLíp 0\nLíp hiÖn t¹i\nLíp cã chøa ®èi t­îng."
+    IDS_message8            "Lçi nghiªm träng: %s\nKÕt thóc . . ."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message9            "Kh«ng thÓ më tÖp míi\nlçi: %d: %s\n"
+    IDS_message10           "§èi t­îng b¹n chän kh«ng ph¶i lµ thuéc tÝnh cña khèi."
+    IDS_message11           "Tªn khèi: "
+    IDS_message12           "§iÓm b¾t ®Çu: "
+    IDS_message13           "Gãc xoay: "
+    IDS_message14           "Text: "
+    IDS_message15           "B¹n ph¶i chän cung hoÆc ®­êng th¼ng."
+    IDS_message16           "Kh«ng ®èi t­îng nµo ®­îc chän."
+    IDS_message17           "C¸c ®èi t­îng b¹n chän ph¶i lµ c¸c cung trßn hoÆc ®o¹n th¼ng..."
+    IDS_message18           "Cöa sæ chän:"
+    IDS_message19           "Gãc thø nhÊt: "
+    IDS_message20           "Gãc tiÕp theo:"
+    IDS_message21           "Chän block cã thuéc tÝnh:"
+    IDS_message22           "Chän ®èi t­îng:"
+    IDS_message23           "DÞch chuyÓn tõ ®iÓm:"
+    IDS_message24           "DÞch chuyÓn ®Õn ®iÓm:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message25           "§iÓm t©m xoay:"
+    IDS_message26           "Gãc xoay:"
+    IDS_message27           "Gèc tû lÖ:"
+    IDS_message28           "HÖ sè tû lÖ:"
+    IDS_message29           "Sao chÐp tõ ®iÓm:"
+    IDS_message30           "Sao chÐp tíi ®iÓm:"
+    IDS_message31           "§iÓm ®Çu tiªn:"
+    IDS_message32           "§iÓm thø hai:"
+    IDS_message33           "§iÓm tiÕp theo:"
+    IDS_message34           "§iÓm ®Çu tiªn:"
+    IDS_message35           "§iÓm tiÕp theo (bÊm Ctrl+A ®Ó chuyÓn gi÷a vÏ cung vµ vÏ ®­êng):"
+    IDS_message36           "Altitude:"
+    IDS_message37           "§iÓm tiÕp theo (bÊm Ctrl+A ®Ó chuyÓn gi÷a vÏ cung vµ vÏ ®­êng):"
+    IDS_message38           "T©m ®iÓm cung trßn:"
+    IDS_message39           "B¸n kÝnh cung trßn:"
+    IDS_message40           "Gãc b¾t ®Çu cña cung:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message41           "Gãc kÕt thóc cña cung:"
+    IDS_message42           "T©m ®­êng trßn:"
+    IDS_message43           "B¸n kÝnh ®­êng trßn:"
+    IDS_message44           "§iÓm gèc:"
+    IDS_message45           "§iÓm chÌn:"
+    IDS_message46           "HÖ sè tû lÖ:"
+    IDS_message47           "Gãc xoay:"
+    IDS_message48           "HÖ sè tû lÖ theo ph­¬ng X:"
+    IDS_message49           "HÖ sè tû lÖ theo ph­¬ng Y:"
+    IDS_message50           "Chän ®èi t­îng cÇn më réng:"
+    IDS_message51           "Chän ®èi t­îng cÇn c¾t:"
+    IDS_message52           "Chän ®èi t­îng thø nhÊt:"
+    IDS_message53           "Chän ®èi t­îng thø hai:"
+    IDS_message54           "Chän ®èi t­îng muèn t¹o ®ång d¹ng:"
+    IDS_message55           "Kho¶ng c¸ch ®Æt ®ång d¹ng:"
+    IDS_message56           "PhÝa ®Æt ®èi t­îng ®ång d¹ng:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message57           "Chän ®èi t­îng:"
+    IDS_message58           "§iÓm ®Çu tiªn:"
+    IDS_message59           "§iÓm thø hai:"
+    IDS_message60           "Sè hiÖu mÇu nµy kh«ng thÓ thay ®æi."
+    IDS_message61           "VÞ trÝ:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message62           "§iÓm:"
+    IDS_STATBARSNAP1        "BËt b¾t ®iÓm"
+    IDS_STATBARSNAP0        "T¾t b¾t ®iÓm"
+    IDS_STATBARGRID1        "BËt hÖ l­íi"
+    IDS_STATBARGRID0        "T¾t hÖ l­íi"
+    IDS_STATBARORTHO1       "BËt vu«ng gãc"
+    IDS_STATBARORTHO0       "T¾t vu«ng gãc"
+    IDS_STATBAROSNAP1       "BËt b¾t dÝnh"
+    IDS_STATBAROSNAP0       "T¾t b¾t dÝnh"
+    IDS_message63           "Thao t¸c nµy phï hîp trong hÖ to¹ ®é thÕ giíi  (WorldCS)"
+    IDS_message64           "Watching angle on XY plane relative to X axis:"
+    IDS_message65           "Vertical watching angle relative to XY plane(from -90 to +90):"
+    IDS_message66           "§iÓm c¬ b¶n:"
+    IDS_message67           "Point on positive portion of the X-axis:"
+    IDS_message68           "Point on positive-Y portion of the UCS XY plane:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message69           "VÞ trÝ ®Æt m¸y quay:"
+    IDS_message70           "§iÓm ng¾m:"
+    IDS_message71           "X¸c ®Þnh ®iÓm ®Çu tiªn cña ®­êng th¼ng ®èi xøng:"
+    IDS_message72           "X¸c ®Þnh ®iÓm thø hai cña ®­êng th¼ng ®èi xøng:"
+    IDS_message73           "Xo¸ ®èi t­îng nguån? [Yes/No] <N>:"
+    IDS_message74           "Sè hµng (---):"
+    IDS_message75           "Sè cét (|||):"
+    IDS_message76           "Kho¶ng c¸ch gi÷a c¸c hµng (---):"
+    IDS_message77           "Kho¶ng c¸ch gi÷a c¸c cét (|||):"
+    IDS_message78           "T©m xoay cña m¶ng:"
+    IDS_message79           "Sè ®èi t­îng trong m¶ng:"
+    IDS_message80           "Gãc ®iÒn m¶ng (+=ccw, -=cw)"
+    IDS_message81           "Xoay ®èi t­îng trong m¶ng? [Yes/No] <Y>:"
+    IDS_message82           "Chän ®­êng trßn hoÆc cung trßn:"
+    IDS_message83           "M size >= 2:"
+    IDS_message84           "N size >= 2:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message85           "Vertex(%i,%i)"
+    IDS_message86           "Select a polyline to extrude:"
+    IDS_message87           "Extrution thickness:"
+    IDS_message88           "Keep top/bottom edges invisible?(Y/N):"
+    IDS_message89           "Gãc cña h×nh hép:"
+    IDS_message90           "ChiÒu dµi:"
+    IDS_message91           "ChiÒu réng:"
+    IDS_message92           "ChiÒu cao:"
+    IDS_message93           "Gãc xoay:"
+    IDS_message94           "T©m c¬ b¶n:"
+    IDS_message95           "B¸n kÝnh c¬ b¶n:"
+    IDS_message96           "B¸n kÝnh trªn (0 = trªn):"
+    IDS_message97           "ChiÒu cao:"
+    IDS_message98           "Sè ph©n ®o¹n:"
+    IDS_message99           "T©m h×nh cÇu:"
+    IDS_message100          "B¸n kÝnh h×nh cÇu:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message101          "Sè ph©n ®o¹n theo chiÒu däc:"
+    IDS_message102          "Sè ph©n ®o¹n theo chiÒu ngang:"
+    IDS_message103          "§iÓm thø ba:"
+    IDS_message104          "§iÓm thø t­:"
+    IDS_message106          "T©m ellipse:"
+    IDS_message107          "§iÓm cuèi trôc 1:"
+    IDS_message108          "Kho¶ng c¸ch tíi trôc kia:"
+    IDS_message109          "Gãc xoay trôc: X/Y/Z/2P :"
+    IDS_message110          "ChØ râ mét ®iÓm trªn trôc x¸c ®Þnh:"
+    IDS_message111          "ChØ râ ®iÓm thø nhÊt trªn trôc x¸c ®Þnh:"
+    IDS_message112          "ChØ râ ®iÓm thø hai trªn trôc x¸c ®Þnh:"
+    IDS_message113          "Gãc xoay:"
+    IDS_message114          "Th«ng b¸o|§Þnh d¹ng %s ®· tån t¹i."
+    IDS_message115          "§iÓm thø ba:"
+    IDS_message116          "Gãc ®Ønh:"
+    IDS_message117          "§iÓm cuèi cña gãc thø nhÊt:"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VDCOMMANDS_ZOOM_W    "Khung nh×n"
+    ID_VDCOMMANDS_ZOOM_P    "Trë l¹i khung nh×n tr­íc"
+    ID_VDCOMMANDS_ZOOM_E    "Nh×n më réng"
+    IDPRINT                 "In Ên"
+    ID_PAN                  "KÐo khung nh×n"
+    ID_ZOOMIN               "Phãng to"
+    ID_ZOOMOUT              "Thu nhá"
+    IDLAYERS                "Líp b¶n vÏ"
+    ID_VDCOMMANDS_HIDE      "GiÊu"
+    ID_VDCOMMANDS_SHADE     "T¾t chÕ ®é t« bãng c¹nh"
+    ID_VDCOMMANDS_RENDER    "T« vËt liÖu"
+    ID_VDCOMMANDS_3DVIEW_TOP "Nh×n tõ trªn xuèng"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VDCOMMANDS_OPEN      "Më"
+    ID_VDCOMMANDS_WIRE      "Wire"
+    ID_VDCOMMANDS_CLIPBOARD_CUT "ChuyÓn vµo bé ®Öm"
+    ID_VDCOMMANDS_CLIPBOARD_COPY "ChÐp vµo bé ®Öm"
+    ID_VDCOMMANDS_CLIPBOARD_PASTE "ChÐp tõ bé ®Öm"
+    IDLAYOUTS               "Khu«n d¹ng b¶n in"
+    IDS_LT_BYLAYER          "THEO LíP\t_________________________"
+    IDS_LT_BYBLOCK          "THEO KHèI\t_________________________"
+    IDS_LT_CONTINUOUS       "NÐT LIÒN\t_________________________"
+    IDS_LT_APIDASH          "APIDASH(not scale)\t__ __ __ __ __ __ __ __ __ __ __ __ __ _"
+    IDS_LT_APIDOT           "APIDOT(not scale)\t. . . . . . . . . . . . . . . . . . . . . . . ."
+    IDS_LT_APIDASHDOT       "APIDASHDOT(not scale)\t__ . __ . __ . __ . __ . __ . __ . __"
+    IDS_LT_APIDOTDOT        "APIDOTDOT(not scale)\t.  .  .  .  .  .  .  .  .  .  .  .  .  ."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_message118          "Second angle endpoint:"
+    IDS_message119          "Name"
+    IDS_message120          "Frozen"
+    IDS_message121          "Lock"
+    IDS_message122          "Color"
+    IDS_message123          "Ltype"
+    IDS_message124          "LWeight"
+    IDS_CMDPL_INITUSERGET_1 "Arc,CLose,Undo"
+    IDS_CMDPL_INITUSERGET_2 "CEnter,Radius,Line,CLose,Tangetial,Undo"
+    IDS_CMDPL_INITUSERGET_3 "Angle"
+    IDS_CMDPL_MSG_1         "PolyLine start point:"
+    IDS_CMDPL_MSG_2         "Next Point or [Arc/CLose/undo]:"
+    IDS_CMDPL_MSG_3         "Specify Second point of arc or[Center,Radius,Line,CLose,Tangetial,Undo]:"
+    IDS_CMDPL_MSG_4         "Specify Center point of arc:"
+    IDS_CMDPL_MSG_5         "Specify End point of arc or[Angle]:"
+    IDS_CMDPL_MSG_6         "Segment Angle  (+=ccw, -=cw):"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CMDPL_MSG_7         "Specify radius of arc:"
+    IDS_CMDPL_MSG_8         "Specify End point of arc:"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Greek resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+#ifdef _WIN32
+LANGUAGE LANG_GREEK, SUBLANG_DEFAULT
+#pragma code_page(1253)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\VDrawRes.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Greek resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\VDrawRes.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
