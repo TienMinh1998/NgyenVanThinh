@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F230C047-9C34-4A67-B4FD-A06F7BA486BC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>thinh62th2</RootNamespace>
+    <AssemblyName>ggfq</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>thinh62th2.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Social-Media-Icons-Glossy-Social-Rakuten.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BuniFudll\Bunifu.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock, Version=1.11.5.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
+      <HintPath>..\packages\BuniFudll\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BuniFudll\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.18, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v20.1" />
+    <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v20.1" />
+    <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1" />
+    <Reference Include="DevExpress.Utils.v20.1" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.Printing.v20.1.Core" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.1.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controler\Cls_Drawing.vb" />
+    <Compile Include="Controler\ControlerMomen.vb" />
+    <Compile Include="Controler\ControlerProcess.vb" />
+    <Compile Include="Controler\ControlerFRM_Main.vb" />
+    <Compile Include="Controler\ControlerDrawingBanVeMain.vb" />
+    <Compile Include="Controler\ControlerDrawingMatBang.vb" />
+    <Compile Include="1_DuLieuDeVe.vb" />
+    <Compile Include="Controler\Controler_MB2.vb" />
+    <Compile Include="Controler\LiD_VectorDraw.vb" />
+    <Compile Include="Controler\Plan_Controler.vb" />
+    <Compile Include="Controler\Test.vb" />
+    <Compile Include="CSA.vb" />
+    <Compile Include="CSB.vb" />
+    <Compile Include="Data.vb" />
+    <Compile Include="frm_tinhtoanthep.Designer.vb">
+      <DependentUpon>frm_tinhtoanthep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_tinhtoanthep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\ICreateNewPlan.vb" />
+    <Compile Include="Model\CellGridLine.vb" />
+    <Compile Include="Model\CellKichthuoc.vb" />
+    <Compile Include="Model\CellNoiLuc.vb" />
+    <Compile Include="Model\col.vb" />
+    <Compile Include="Model\DataConnection.vb" />
+    <Compile Include="Model\LineBeam.vb" />
+    <Compile Include="Model\salab.vb" />
+    <Compile Include="Model\StringSQL.vb" />
+    <Compile Include="2_DuLieuDungChung.vb" />
+    <Compile Include="Controler\ControlerMathMaxMin.vb" />
+    <Compile Include="Model\Table_Noiluc.vb" />
+    <Compile Include="3_DuLieuVatLieu.vb" />
+    <Compile Include="4_DulieuPhu.vb" />
+    <Compile Include="View\FrmHuongDan.Designer.vb">
+      <DependentUpon>FrmHuongDan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmHuongDan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_Banve.Designer.vb">
+      <DependentUpon>Frm_Banve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_Banve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRM_huongdansudung.Designer.vb">
+      <DependentUpon>FRM_huongdansudung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRM_huongdansudung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRM_Scale.Designer.vb">
+      <DependentUpon>FRM_Scale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRM_Scale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\GioithieuView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\GioithieuView.Designer.vb">
+      <DependentUpon>GioithieuView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\ActionView.Designer.vb">
+      <DependentUpon>ActionView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\ActionView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MomenView.Designer.vb">
+      <DependentUpon>MomenView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\MomenView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ChonVatlieuView.Designer.vb">
+      <DependentUpon>ChonVatlieuView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\ChonVatlieuView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Plan_View.Designer.vb">
+      <DependentUpon>Plan_View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\Plan_View.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ProcessView.Designer.vb">
+      <DependentUpon>ProcessView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProcessView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FRM_Main_View.Designer.vb">
+      <DependentUpon>FRM_Main_View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\FRM_Main_View.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ChonThepView.Designer.vb">
+      <DependentUpon>ChonThepView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\ChonThepView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="View\UserControl\Giaodien.Designer.vb">
+      <DependentUpon>Giaodien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\Giaodien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\Toadocacbansan.Designer.vb">
+      <DependentUpon>Toadocacbansan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\Toadocacbansan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\ToadodiemBeam.Designer.vb">
+      <DependentUpon>ToadodiemBeam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\ToadodiemBeam.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\UserDataExcel.Designer.vb">
+      <DependentUpon>UserDataExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\UserDataExcel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\UserGridLinnes.Designer.vb">
+      <DependentUpon>UserGridLinnes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\UserGridLinnes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\User_bangkichthuoc.Designer.vb">
+      <DependentUpon>User_bangkichthuoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\User_bangkichthuoc.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\user_banve.Designer.vb">
+      <DependentUpon>user_banve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\user_banve.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\User_banve_matbang.Designer.vb">
+      <DependentUpon>User_banve_matbang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\User_banve_matbang.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\user_data2.Designer.vb">
+      <DependentUpon>user_data2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\user_data2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\User_new.Designer.vb">
+      <DependentUpon>User_new.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\User_new.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControl\user_vatlieu.Designer.vb">
+      <DependentUpon>user_vatlieu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControl\user_vatlieu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\View_data_beam.Designer.vb">
+      <DependentUpon>View_data_beam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_data_beam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_gioiThieu.Designer.vb">
+      <DependentUpon>View_gioiThieu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_gioiThieu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_New_data.Designer.vb">
+      <DependentUpon>View_New_data.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_New_data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\View_Start.Designer.vb">
+      <DependentUpon>View_Start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View\View_Start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="frm_tinhtoanthep.resx">
+      <DependentUpon>frm_tinhtoanthep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmHuongDan.resx">
+      <DependentUpon>FrmHuongDan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_Banve.resx">
+      <DependentUpon>Frm_Banve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRM_huongdansudung.resx">
+      <DependentUpon>FRM_huongdansudung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRM_Scale.resx">
+      <DependentUpon>FRM_Scale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\GioithieuView.resx">
+      <DependentUpon>GioithieuView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ActionView.resx">
+      <DependentUpon>ActionView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MomenView.resx">
+      <DependentUpon>MomenView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ChonVatlieuView.resx">
+      <DependentUpon>ChonVatlieuView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Plan_View.resx">
+      <DependentUpon>Plan_View.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ProcessView.resx">
+      <DependentUpon>ProcessView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FRM_Main_View.resx">
+      <DependentUpon>FRM_Main_View.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ChonThepView.resx">
+      <DependentUpon>ChonThepView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\UserControl\Giaodien.resx">
+      <DependentUpon>Giaodien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\Toadocacbansan.resx">
+      <DependentUpon>Toadocacbansan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\ToadodiemBeam.resx">
+      <DependentUpon>ToadodiemBeam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\UserDataExcel.resx">
+      <DependentUpon>UserDataExcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\UserGridLinnes.resx">
+      <DependentUpon>UserGridLinnes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\User_bangkichthuoc.resx">
+      <DependentUpon>User_bangkichthuoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\user_banve.resx">
+      <DependentUpon>user_banve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\User_banve_matbang.resx">
+      <DependentUpon>User_banve_matbang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\user_data2.resx">
+      <DependentUpon>user_data2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\User_new.resx">
+      <DependentUpon>User_new.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControl\user_vatlieu.resx">
+      <DependentUpon>user_vatlieu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_data_beam.resx">
+      <DependentUpon>View_data_beam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_gioiThieu.resx">
+      <DependentUpon>View_gioiThieu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_New_data.resx">
+      <DependentUpon>View_New_data.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\View_Start.resx">
+      <DependentUpon>View_Start.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="app.config" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="AxVDProLib5">
+      <Guid>{68C2910D-885A-4B9D-BA07-ABFE0563A8E9}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VDProLib5">
+      <Guid>{68C2910D-885A-4B9D-BA07-ABFE0563A8E9}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1.PNG" />
+    <None Include="Resources\huongdangsudung.PNG" />
+    <None Include="Resources\vatlieu.png" />
+    <None Include="Resources\thep2.png" />
+    <None Include="Resources\1219387-200.png" />
+    <None Include="Resources\matbang.png" />
+    <None Include="Resources\mb4.png" />
+    <None Include="Resources\dwg-icon-150x1501.png" />
+    <None Include="Resources\icons8-about-961.png" />
+    <None Include="Resources\icons8-design-961.png" />
+    <None Include="Resources\icons8-design-962.png" />
+    <None Include="Resources\icons8-floor-plan-64.png" />
+    <None Include="Resources\icons8-steel-ore-48.png" />
+    <None Include="Resources\icons8-steel-i-beam-48.png" />
+    <None Include="Resources\icons8-database-export-64.png" />
+    <Content Include="Social-Media-Icons-Glossy-Social-Rakuten.ico" />
+    <Content Include="Toyoharukatoh-Adobe-Creative-Suite-Edge-PhoneGap-Build %281%29.ico" />
+    <None Include="image\access-icon.png" />
+    <None Include="image\Microsoft-Excel-2013-icon.png" />
+    <None Include="image\Internet-firefox-icon.png" />
+    <None Include="image\unnamed.jpg" />
+    <None Include="image\Files-icon.png" />
+    <None Include="image\Edit-Document-icon.png" />
+    <Content Include="Resources\2.png" />
+    <Content Include="Resources\2_1.png" />
+    <Content Include="Resources\2_duoi.png" />
+    <Content Include="Resources\2_tren.png" />
+    <Content Include="Resources\3_1.png" />
+    <Content Include="Resources\3_duoi.png" />
+    <Content Include="Resources\3_tren.png" />
+    <Content Include="Resources\4_1.png" />
+    <Content Include="Resources\4_1_1.png" />
+    <Content Include="Resources\4_2.png" />
+    <Content Include="Resources\4_2_1.png" />
+    <Content Include="Resources\4_duoi.png" />
+    <Content Include="Resources\4_tren.png" />
+    <Content Include="Resources\5_1.png" />
+    <Content Include="Resources\5_2.png" />
+    <Content Include="Resources\5_duoi.png" />
+    <Content Include="Resources\5_tren.png" />
+    <Content Include="Resources\6.png" />
+    <Content Include="Resources\6_1.png" />
+    <Content Include="Resources\6_duoi.png" />
+    <Content Include="Resources\6_tren.png" />
+    <Content Include="Resources\dwg-icon-150x150.png" />
+    <Content Include="Resources\etab.jpg" />
+    <Content Include="Resources\freepressjournal_2020-09_77768f25-23cc-4207-b094-03946a1e7b8a_122002734_isometric_3d_online_exam_or_course_concept_with_books_and_computer_exams_with_time_icon_ve.jpg" />
+    <Content Include="Resources\icons8-about-96.png" />
+    <Content Include="Resources\icons8-add-folder-96.png" />
+    <Content Include="Resources\icons8-autodesk-autocad-96.png" />
+    <Content Include="Resources\icons8-calculator-96.png" />
+    <Content Include="Resources\icons8-cloud-print-96.png" />
+    <Content Include="Resources\icons8-design-96.png" />
+    <Content Include="Resources\icons8-microsoft-excel-2019-96.png" />
+    <Content Include="Resources\icons8-microsoft-word-2019-96.png" />
+    <Content Include="Resources\icons8-name-tag-80.png" />
+    <Content Include="Resources\icons8-opened-folder-96.png" />
+    <Content Include="Resources\icons8-steel-ore-96.png" />
+    <Content Include="Resources\icon_load.png" />
+    <Content Include="Resources\icon_steel.png" />
+    <Content Include="Resources\ic_thep.png" />
+    <Content Include="Resources\matcat.png" />
+    <Content Include="Resources\noilucdam.png" />
+    <Content Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
